@@ -1,0 +1,91 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(175, 49, 108);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color:rgb(175, 49, 108);
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 5.5vw;
+}
+
+
+header > p{
+    padding-bottom: 40px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6vw;
+}
+
+
+section > p{
+    padding-bottom: 2em;
+}
+
+ section.normal{
+    background-color:rgb(175, 49, 108);
+    color: black;
+ }
+
+section.imagem{
+    background-color:rgb(175, 49, 108);
+    color: white;
+    box-shadow: inset 4px 4px 10px 0px rgba(0, 0, 0, 0.466);
+    background-attachment: fixed;
+}
+ 
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.329);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.377);
+}
+
+section#img01{
+    background-image: url(imagens/Imagem\ do\ WhatsApp\ de\ 2024-03-04\ à\(s\)\ 10.43.43_7976e909.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+        background-color:  rgb(175, 49, 108);
+        color: white;
+        text-align: center;
+        padding: 5px;
+}
+
+
